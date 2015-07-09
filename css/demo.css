@@ -64,7 +64,7 @@ a:hover, a:focus {
 	z-index: 1000;
 }
 .titlebox :hover{
-	background-color: rgba(123,45,44,1);
+	background-color: rgba(123,45,44,0.5);
 }
 
 
