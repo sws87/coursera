@@ -54,15 +54,40 @@ a:hover, a:focus {
 	background-size: auto 100vh;
 }
 
+
+.titlebox {
+	width:40%;
+	height: 10%;
+	margin-left: 30%;
+	position: absolute;
+	top:46vh;
+	z-index: 1000;
+}
+.titlebox :hover{
+	background-color: rgba(123,45,44,1);
+}
+
+
+.titlebox a{
+	cursor: pointer;
+	color:white;
+}
+.titlebox a:hover{
+	cursor: pointer;
+	color:grey;
+	text-decoration: underline;
+
+}
+
 .codrops-header h1 {
-	margin: 0.5em 0 0;
+	margin: 0;
 	letter-spacing: -1px;
 	font-weight: 400;
 	font-size: 4.25em;
 	line-height: 1;
 	position: absolute;
 	width: 100%;
-	top: 40vh;
+	top: 0;
 	color: #fff;
 	pointer-events: none;
 	font-family: 'Brandon Grotesque';
@@ -84,7 +109,8 @@ a:hover, a:focus {
 
 .codrops-header h1 .span1 {
 	display: block;
-	padding: 45em 0;
+	padding: 103em 0;
+	bottom: 10px;
 	color: white;
 	font-size: 0.15em;
 	text-transform: uppercase;
@@ -94,17 +120,6 @@ a:hover, a:focus {
 	font-family: 'Questrial', 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.github-link {
-	z-index: 100;
-	font-size: 0.95em;
-	position: absolute;
-	right: 50px;
-	top: 18px;
-}
-
-.github-link span {
-	margin: 0 0 0 5px;
-}
 
 .hero {
 	position: absolute;
@@ -114,6 +129,8 @@ a:hover, a:focus {
 	right: 0px;
 	overflow: hidden;
 }
+
+
 
 .hero__imgwrap {
 	position: relative;
