@@ -1,15 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Questrial|Playfair+Display:400,700);
 
-@font-face {
-	font-weight: normal;
-	font-style: normal;
-	font-family: 'codropsicons';
-	src:url('../fonts/codropsicons/codropsicons.eot');
-	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
-		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
-		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+
+
+@font-face{font-family:'Brandon_bld'; src:url('../fonts/Brandon_bld.woff')}
 }
+
+
 
 *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 .clearfix:before, .clearfix:after {display: table;  content: ''; }
@@ -60,7 +56,7 @@ a:hover, a:focus {
 	height: 10%;
 	margin-left: 30%;
 	position: absolute;
-	top:46vh;
+	top:45vh;
 	z-index: 1000;
 }
 .titlebox :hover{
@@ -81,18 +77,15 @@ a:hover, a:focus {
 
 .codrops-header h1 {
 	margin: 0;
-	letter-spacing: -1px;
-	font-weight: 400;
 	font-size: 4.25em;
 	line-height: 1;
+	letter-spacing: 10px;
 	position: absolute;
 	width: 100%;
 	top: 0;
 	color: #fff;
 	pointer-events: none;
-	font-family: 'Brandon Grotesque';
-	font-weight: bold;
-	letter-spacing: 10px;
+	font-family: 'Brandon_bld';
 }
 
 .codrops-header h1 span {
@@ -104,7 +97,7 @@ a:hover, a:focus {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-shadow: none;
-	font-family: 'Brandon Grotesque';
+	font-family: 'Brandon_bld';
 }
 
 .codrops-header h1 .span1 {
