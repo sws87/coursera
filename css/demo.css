@@ -2,8 +2,19 @@
 
 
 
-@font-face{font-family:'Brandon_bld'; src:url('../fonts/Brandon_bld.woff')}
+
+@font-face {
+  font-family: 'Brandon Grotesque Regular';
+  src: url('../fonts/brandon/Brandon_reg.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/brandon/Brandon_reg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/brandon/Brandon_reg.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/brandon/Brandon_reg.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/brandon/Brandon_reg.svg#50bf5a2005a5412419d6a4b30314e68e') format('svg'); /* Legacy iOS */
+       
+  font-style:   bold;
+  font-weight:  400;
 }
+
 
 
 
@@ -41,6 +52,9 @@ a:hover, a:focus {
 	font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+
+.container {
+}
 /* Header */
 .codrops-header {
 	text-align: center;
@@ -52,22 +66,26 @@ a:hover, a:focus {
 
 
 .titlebox {
-	width:40%;
+	width:26%;
 	height: 10%;
-	margin-left: 30%;
+	margin-left: 37%;
 	position: absolute;
 	top:45vh;
 	z-index: 1000;
-}
-.titlebox :hover{
-	background-color: rgba(123,45,44,0.5);
-}
-
-
-.titlebox a{
 	cursor: pointer;
 	color:white;
+	float: left;
+	font-family: 'Brandon Grotesque Regular';
+	letter-spacing: 2.5px;
+	line-height: 12px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+
 }
+.titlebox :hover{
+	background-color: rgba(123,45,44,0);
+}
+
 .titlebox a:hover{
 	cursor: pointer;
 	color:grey;
@@ -75,18 +93,42 @@ a:hover, a:focus {
 
 }
 
+#coursera {
+	width:30%;
+	height: 10%;
+	margin-left: 35%;
+	position: absolute;
+	top:51vh;
+	float: left;
+	cursor: pointer;
+	color:white;
+	font-family: 'Brandon Grotesque Regular';
+	letter-spacing: 2px;
+
+}
+
+
+
+
+
 .codrops-header h1 {
 	margin: 0;
 	font-size: 4.25em;
-	line-height: 1;
 	letter-spacing: 10px;
 	position: absolute;
 	width: 100%;
-	top: 0;
+	top: 80px;
 	color: #fff;
 	pointer-events: none;
-	font-family: 'Brandon_bld';
+	font-family: 'Brandon Grotesque Regular';
 }
+
+.codrops-header#coursera img{
+	width: inherit;
+}
+
+
+
 
 .codrops-header h1 span {
 	display: block;
@@ -97,12 +139,13 @@ a:hover, a:focus {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-shadow: none;
-	font-family: 'Brandon_bld';
+	font-family: 'Brandon Grotesque Regular';
+
 }
 
 .codrops-header h1 .span1 {
 	display: block;
-	padding: 103em 0;
+	padding: 95em 0;
 	bottom: 10px;
 	color: white;
 	font-size: 0.15em;
